@@ -1,0 +1,19 @@
+h1{
+    font-size: 30px !important;
+}
+button:hover{
+    background-color: red !important;
+}
+canvas{
+    margin-top: 100px;
+    border:10px solid;
+    animation-name:hi;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes hi {
+    from{
+        box-shadow: 1px 1px 100px gray;
+    }
+    to{box-shadow: 1px 1px 100px black;}
+}
