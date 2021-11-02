@@ -16,7 +16,7 @@ function setup(){
 
 function draw(){
     image(video,0,0,400,400);
-    image(moustache,noseX,noseY,100,100)
+    image(moustache,noseX,noseY,50,50)
 }
 
 function takeSnapShot(){
@@ -30,7 +30,7 @@ function modelLoaded(){
 function gotPoses(results){
     if(results.length>0){
         console.log(results);
-        noseX=results[0].pose.nose.x-150;
-        noseY=results[0].pose.nose.y-90;
+        noseX=results[0].pose.nose.x-115;
+        noseY=results[0].pose.nose.y-50;
     }
 }
